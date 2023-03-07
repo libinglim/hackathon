@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wellness at School</title>
+    <style>
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://www.transparenttextures.com/patterns/padded-light.png');
+}
+
+h1 {
+  text-align: center;
+  color: #0099cc;
+  margin: 40px 0 20px;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.wellness-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 600px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.wellness-box:hover {
+  transform: translateY(-10px);
+}
+
+.wellness-box img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.wellness-box h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.wellness-box p {
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #0099cc;
+}
+
+.box-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.box-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.box-description {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #666;
+  text-align: center;
+}
+
+.wellness-box .box-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0099cc;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 700;
+  transition: background-color 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.wellness-box .box-link:hover {
+  background-color: #0077b3;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .wellness-box {
+    margin: 10px;
+    height: auto;
+  }
+
+  .box-image {
+    height: 200px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  
+  .box-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .box-description {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .wellness-box .box-link {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  
+  .wellness-box:hover {
+    transform: translateY(-5px);
+  }
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wellness at School</h1>
+    </header>
+    <main>
+        <p>As students, it's important to take care of our physical and mental health so we can perform our best in school. Here are some tips for staying healthy:</p>
+        <ul>
+            <li>Get enough sleep (at least 8 hours a night)</li>
+            <li>Eat a balanced diet with plenty of fruits and vegetables</li>
+            <li>Stay hydrated by drinking plenty of water</li>
+            <li>Take breaks and move around during long periods of sitting</li>
+            <li>Practice stress-reduction techniques such as deep breathing or meditation</li>
+            <li>Stay connected with friends and family for emotional support</li>
+            <li>Reach out to a trusted adult or counselor if you're struggling with mental health issues</li>
+        </ul>
+		<div class="container">
+            <a href="sleep.html">
+                <div class="wellness-box">
+                    <img src="sleep.jpg" alt="A person sleeping">
+                    <h2>Get Enough Sleep</h2>
+                    <p>Getting at least 8 hours of sleep each night is essential for good physical and mental health. It helps improve memory and concentration, reduces stress, and boosts immune function.</p>
+                    <p>Click the box for more information about getting enough sleep.</p>
+                </div>
+            </a>
+            <a href="exercise.html">
+                <div class="wellness-box">
+                    <img src="exercise.jpg" alt="A person exercising">
+                    <h2>Get Moving</h2>
+                    <p>Regular exercise can help improve your physical and mental health. Try finding an activity you enjoy, such as walking, cycling, or dancing.</p>
+                    <p>Click the box for more information about getting enough exercise.</p>
+                </div>
+            </a>
+            <a href="meditation.html">
+                <div class="wellness-box">
+                    <img src="meditation.jpg" alt="A person meditating">
+                    <h2>Meditate</h2>
+                    <p>Meditation can help reduce stress and anxiety, improve concentration, and increase feelings of calm and well-being. Try starting with just a few minutes each day.</p>
+                    <p>Click the box for more information about meditation.</p>
+                </div>
+            </a>
+            <a href="fruits.html">
+                <div class="wellness-box">
+                    <img src="fruits.jpg" alt="A variety of colorful fruits">
+                    <h2>Eat a Balanced Diet</h2>
+                    <p>Eating a balanced diet with plenty of fruits and vegetables provides your body with the nutrients it needs to stay healthy and strong. It can also help improve your mood and energy levels.</p>
+                    <p>Click the box for more information about eating a balanced diet.</p>
+                </div>
+            </a>
+            <a href="water.html">
+                <div class="wellness-box">
+                    <img src="water.jpg" alt="A glass of water with lemon slices">
+                    <h2>Stay Hydrated</h2>
+                    <p>Drinking plenty of water throughout the day helps keep your body hydrated and functioning properly. It can also help improve digestion and concentration.</p>
+                    <p>Click the box for more information about staying hydrated.</p>
+                </div>
+            </a>
+            <a href="nature.html">
+                <div class="wellness-box">
+                    <img src="nature2.jpg" alt="A person in nature">
+                    <h2>Connect with Nature</h2>
+                    <p>Spending time in nature can improve your mood, reduce stress, and increase feelings of happiness and well-being. Try taking a walk in a park or hiking on a nature trail.</p>
+                    <p>Click the box for more information about connecting with nature.</p>
+                </div>
+            </a>
+            <a href="yoga.html">
+                <div class="wellness-box">
+                    <img src="yoga.jpg" alt="A person doing yoga">
+                    <h2>Practice Yoga</h2>
+                    <p>Yoga can help improve flexibility, balance, and strength, as well as reduce stress and anxiety. Look for local yoga classes or try online videos to get started.</p>
+                    <p>Click the box for more information about practicing yoga.</p>
+                </div>
+            </a>
+            
